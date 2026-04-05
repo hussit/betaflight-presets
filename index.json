@@ -1,0 +1,21 @@
+{
+  "uniqueId": "meine-fpv-presets",
+  "title": "Meine FPV Presets",
+  "presets": [
+    {
+      "name": "Mein OSD Layout",
+      "category": "OSD",
+      "path": "presets/osd/mein-osd-layout.txt"
+    },
+    {
+      "name": "Meine Modes (Aux Switches)",
+      "category": "OTHER",
+      "path": "presets/modes/meine-modes.txt"
+    },
+    {
+      "name": "Meine Rates (Actual Rates)",
+      "category": "RATES",
+      "path": "presets/rates/meine-rates.txt"
+    }
+  ]
+}
