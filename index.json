@@ -1,6 +1,7 @@
 {
   "uniqueId": "hussit-presets",
   "title": "Hussit FPV Presets",
+  "version": "1.0.0",
   "settings": {
     "mixersource": "github",
     "baseurl": "https://raw.githubusercontent.com/hussit/betaflight-presets/main/"
