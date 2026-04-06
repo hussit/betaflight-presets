@@ -1,10 +1,21 @@
 {
-  "uniqueId": "hussit-presets",
-  "title": "Hussit FPV Presets",
-  "version": "1.0.0",
+  "majorVersion": 1,
+  "minorVersion": 0,
   "settings": {
-    "mixersource": "github",
-    "baseurl": "https://raw.githubusercontent.com/hussit/betaflight-presets/main/"
+    "MetapropertyDirective": "#$",
+    "PresetCategories": {
+      "TUNE": "TUNE",
+      "RATES": "RATES",
+      "OSD": "OSD",
+      "MODES": "MODES",
+      "OTHER": "OTHER"
+    }
+  },
+  "uniqueValues": {
+    "firmware_version": ["4.5"],
+    "category": ["OSD", "MODES", "RATES"],
+    "author": ["hussit"],
+    "keywords": ["osd", "modes", "rates", "custom"]
   },
   "presets": [
     {
@@ -12,8 +23,8 @@
       "hash": "86541592c8cd037734729c30dc72a1ecf4a19cd34f506d71c83ead8749ed7843",
       "title": "Mein OSD Layout",
       "firmware_version": ["4.5"],
-      "category": "osd",
-      "status": "experimental",
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
       "keywords": ["osd", "layout", "hd", "custom"],
       "author": "hussit",
       "priority": 0
@@ -23,8 +34,8 @@
       "hash": "8c810783287e4923137065001b11dcf30c33b9736a4459c225f2476b68def74f",
       "title": "Meine Modes (Aux Switches)",
       "firmware_version": ["4.5"],
-      "category": "other",
-      "status": "experimental",
+      "category": "MODES",
+      "status": "EXPERIMENTAL",
       "keywords": ["modes", "aux", "switches", "arm", "turtle", "beeper"],
       "author": "hussit",
       "priority": 0
@@ -34,8 +45,8 @@
       "hash": "04c58ce265238f49cb30814a883ba3946492bc013b36937ddbdfb83a36b8d8a9",
       "title": "Meine Rates (Actual Rates)",
       "firmware_version": ["4.5"],
-      "category": "rates",
-      "status": "experimental",
+      "category": "RATES",
+      "status": "EXPERIMENTAL",
       "keywords": ["rates", "actual", "freestyle", "custom"],
       "author": "hussit",
       "priority": 0
