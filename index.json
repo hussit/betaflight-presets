@@ -12,30 +12,33 @@
       "hash": "86541592c8cd037734729c30dc72a1ecf4a19cd34f506d71c83ead8749ed7843",
       "title": "Mein OSD Layout",
       "firmware_version": ["4.5"],
-      "category": "OSD",
-      "status": "EXPERIMENTAL",
+      "category": "osd",
+      "status": "experimental",
       "keywords": ["osd", "layout", "hd", "custom"],
-      "author": "hussit"
+      "author": "hussit",
+      "priority": 0
     },
     {
       "fullPath": "presets/modes/meine-modes.txt",
       "hash": "8c810783287e4923137065001b11dcf30c33b9736a4459c225f2476b68def74f",
       "title": "Meine Modes (Aux Switches)",
       "firmware_version": ["4.5"],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
+      "category": "other",
+      "status": "experimental",
       "keywords": ["modes", "aux", "switches", "arm", "turtle", "beeper"],
-      "author": "hussit"
+      "author": "hussit",
+      "priority": 0
     },
     {
       "fullPath": "presets/rates/meine-rates.txt",
       "hash": "04c58ce265238f49cb30814a883ba3946492bc013b36937ddbdfb83a36b8d8a9",
       "title": "Meine Rates (Actual Rates)",
       "firmware_version": ["4.5"],
-      "category": "RATES",
-      "status": "EXPERIMENTAL",
+      "category": "rates",
+      "status": "experimental",
       "keywords": ["rates", "actual", "freestyle", "custom"],
-      "author": "hussit"
+      "author": "hussit",
+      "priority": 0
     }
   ]
 }
