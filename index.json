@@ -14,7 +14,7 @@
   "uniqueValues": {
     "firmware_version": ["4.5"],
     "category": ["OSD", "MODES", "RATES"],
-    "author": ["huss"],
+    "author": ["hussit"],
     "keywords": ["osd", "modes", "rates", "custom"]
   },
   "presets": [
@@ -26,7 +26,7 @@
       "category": "OSD",
       "status": "EXPERIMENTAL",
       "keywords": ["osd", "layout", "hd", "custom"],
-      "author": "hussit",
+      "author": "huss",
       "priority": 0
     },
     {
