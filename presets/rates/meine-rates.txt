@@ -1,0 +1,44 @@
+#$ TITLE: Meine Rates (Actual Rates)
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: RATES
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS: rates, actual, freestyle, custom
+#$ AUTHOR: hussit
+#$ DESCRIPTION: Meine persönlichen Actual Rates für alle Drohnen.
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Max Rates: 550°/s auf allen Achsen
+#$ DESCRIPTION: Center Sensitivity: 100°/s
+#$ DESCRIPTION: Expo: 50%
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Throttle Kurve:
+#$ DESCRIPTION: - Mid: 35%
+#$ DESCRIPTION: - Expo: 40%
+
+# Rate Type
+set rates_type = ACTUAL
+
+# Roll Rates
+set roll_rc_rate = 10
+set roll_expo = 50
+set roll_srate = 55
+set roll_rate_limit = 1998
+
+# Pitch Rates
+set pitch_rc_rate = 10
+set pitch_expo = 50
+set pitch_srate = 55
+set pitch_rate_limit = 1998
+
+# Yaw Rates
+set yaw_rc_rate = 10
+set yaw_expo = 50
+set yaw_srate = 55
+set yaw_rate_limit = 1998
+
+# Throttle Kurve
+set thr_mid = 35
+set thr_expo = 40
+
+# Throttle Limit
+set throttle_limit_type = CLIP
+set throttle_limit_percent = 100
